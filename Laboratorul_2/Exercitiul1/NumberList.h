@@ -1,6 +1,7 @@
 #pragma once
 class NumberList
 {
+private:
 	int numbers[10];
 	int count;
 public:
