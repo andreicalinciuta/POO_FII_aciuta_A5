@@ -144,7 +144,6 @@ void Canvas::Print()
 void Canvas::Clear()
 {
 	for (int i = 0; i < this->height; ++i) {
-		this->matrix[i] = (char*)malloc(this->width * sizeof(char));
 		memset(this->matrix[i], ' ', this->width);
 	}
 }
