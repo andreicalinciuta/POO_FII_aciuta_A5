@@ -1,7 +1,6 @@
 #pragma once
 class Sort
 {
-    // add data members
     int numberOfElements;
     int* myArray;
 
@@ -10,7 +9,6 @@ class Sort
 
 public:
 
-    // add constuctors
     Sort(int numberOfElements, int minimumValue, int maximumValue);
     Sort();
     Sort(int* arrayA, int numberOfElements);
