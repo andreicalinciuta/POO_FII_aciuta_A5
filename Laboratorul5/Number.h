@@ -15,15 +15,16 @@ public:
 	Number(const char* value, int base); // where base is between 2 and 16
 	Number(int value);
 	Number(const char* value);
-
+	Number(const Number& x);
+	Number(Number&& x);
+	Number();
 	~Number();
 
-	// add operators and copy/move constructor
 
 	friend Number operator+(const Number& x, const Number& y);
 	friend Number operator-(const Number& x, const Number& y);
 
-	char* operator!();
+	void operator!();
 	char operator[](int index);
 	bool operator>(const Number& x);
 	bool operator<(const Number& x);
@@ -31,11 +32,15 @@ public:
 	bool operator<=(const Number& x);
 	bool operator==(const Number& x);
 
+	bool operator>(int x);
+	bool operator<(int x);
+	bool operator>=(int x);
+	bool operator<=(int x);
+	bool operator==(int x);
+
 	void operator--();
 	void operator--(int val);
 
-	Number(const Number& x);
-	Number(Number&& x);
 	Number& operator=(Number&& x);
 	Number& operator=(int x);
 	void operator+=(Number& x);

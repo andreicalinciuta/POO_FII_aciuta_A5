@@ -10,9 +10,9 @@ int main()
 
 
 
-	printf("n1 has %d digits and it is written in base %d\n", n1.GetDigitsCount(), n1.GetBase());
+	printf("n1 has %d digits and it is written in base %d\n\n", n1.GetDigitsCount(), n1.GetBase());
 
-	for (int tr = 0; tr < n1.GetDigitsCount(); tr++)
+	for (int tr = 0; tr < n1.GetDigitsCount(); tr++, printf("\n"))
 
 	{
 
@@ -34,7 +34,7 @@ int main()
 
 	
 
-	if (n1 > n2) printf("n1 is bigger than n2\n"); else printf("n2 is bigger than n1\n");
+	if (n1 > n2) printf("n1 is bigger than n2\n\n"); else printf("n2 is bigger than n1\n\n");
 
 	
 
@@ -60,8 +60,6 @@ int main()
 	n4--; // the last digit from n4 will be remove ==> n4 becomes 357
 
 	n4.Print();
-	
-
 
 	return 0;
 }

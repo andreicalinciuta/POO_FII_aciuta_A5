@@ -123,7 +123,13 @@ Number::Number(const char* value)
 	this->base = 10;
 	strcpy_s(this->value, strlen(value) + 1, value);
 }
+Number::Number()
+{
+	this->value = nullptr;
+	this->base = 0;
+}
 Number::~Number()
+
 {
 	if (this->value != nullptr)
 	{
@@ -156,6 +162,8 @@ Number& Number::operator=(Number&& x)
 
 Number& Number::operator=(int x)
 {
+	if (this->base == 0)
+		this->base = 10;
 	char* newString;
 	newString = (char*)malloc(255 * sizeof(char));
 	fromDeci(newString, this->base, x);
@@ -236,9 +244,9 @@ int Number::GetBase()
 	return this->base;
 }
 
-char* Number::operator!()
+void Number::operator!()
 {
-	return nullptr;
+	printf("-%s\n", this->value);
 }
 
 char Number::operator[](int index)
@@ -289,6 +297,46 @@ bool Number::operator==(const Number& x)
 	int thisToDeci = toDeci(this->value, this->base);
 	int xToDeci = toDeci(x.value, x.base);
 	if (thisToDeci == xToDeci)
+		return true;
+	return false;
+}
+
+bool Number::operator>(int x)
+{
+	int thisToDeci = toDeci(this->value, this->base);
+	if (thisToDeci > x)
+		return true;
+	return false;
+}
+
+bool Number::operator<(int x)
+{
+	int thisToDeci = toDeci(this->value, this->base);
+	if (thisToDeci < x)
+		return true;
+	return false;
+}
+
+bool Number::operator>=(int x)
+{
+	int thisToDeci = toDeci(this->value, this->base);
+	if (thisToDeci >= x)
+		return true;
+	return false;
+}
+
+bool Number::operator<=(int x)
+{
+	int thisToDeci = toDeci(this->value, this->base);
+	if (thisToDeci <= x)
+		return true;
+	return false;
+}
+
+bool Number::operator==(int x)
+{
+	int thisToDeci = toDeci(this->value, this->base);
+	if (thisToDeci == x)
 		return true;
 	return false;
 }
