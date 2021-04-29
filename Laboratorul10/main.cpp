@@ -61,7 +61,7 @@ int main()
 	myArray.Sort();
 
 	cout << "Position of element 2 in myArray: " << myArray.BinarySearch(2)<<'\n';
-	// myArray.PrintTest();
+
 	for (ArrayIterator<int> it = myArray.GetBeginIterator(); it != myArray.GetEndIterator(); ++it)
 	{
 		cout << *it.p << ' ';

@@ -10,7 +10,7 @@ public:
 	ArrayIterator();
 	ArrayIterator& operator ++ ();
 	ArrayIterator& operator -- ();
-	//bool operator= (ArrayIterator<T>&); ?
+	bool operator= (ArrayIterator<T>&);
 	friend bool operator != (const ArrayIterator<T>& meProb,const ArrayIterator<T>& other)
 	{
 		return meProb.p != other.p;
@@ -39,6 +39,14 @@ inline ArrayIterator<T>& ArrayIterator<T>::operator--()
 	this->pToList--;
 	this->p = *this->pToList;
 	return *this;
+}
+
+template<class T>
+inline bool ArrayIterator<T>::operator=(ArrayIterator<T>& other)
+{
+	this->p = other->p;
+	this->pToList = other->pToList;
+	return true;
 }
 
 

@@ -265,7 +265,7 @@ inline int Array<T>::BinarySearch(const T& elem, Compare* comparator)
 		midd = left + (right - left) / 2;
 		if (*this->List[midd] == elem)
 			return midd;
-		else if (comparator->CompareElements(*this->List[midd], elem))
+		else if (comparator->CompareElements(this->List[midd], elem))
 			right = midd - 1;
 		else
 			left = midd + 1;
