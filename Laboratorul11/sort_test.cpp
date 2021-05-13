@@ -3,7 +3,7 @@
 //
 #include <gtest/gtest.h>
 
-// Codul lui Razvan Pahoncea
+// Codul lui Razvan Pahoncea ( doar Sortarea )
 template<typename T>
 void jaleSort(T arr[], int l, int h)
 {
