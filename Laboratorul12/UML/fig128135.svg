@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="729" height="598" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="581" y="227" width="3" height="91" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="389" y="315" width="195" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="385" y="223" width="196" height="92" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" font-style="italic" text-anchor="middle" x="483" y="233">Contact</text>
+	<line stroke="black" stroke-opacity="1" x1="385" y1="243" x2="581" y2="243" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="389" y="253">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="403" y="253">nume : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="389" y="271">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="403" y="271">myContactType : contactType</text>
+	<line stroke="black" stroke-opacity="1" x1="385" y1="281" x2="581" y2="281" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="338" y="479" width="3" height="101" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="208" y="577" width="133" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="204" y="475" width="134" height="102" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="271" y="485">Prieten</text>
+	<line stroke="black" stroke-opacity="1" x1="204" y1="495" x2="338" y2="495" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="208" y="505">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="222" y="505">nume : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="208" y="523">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="222" y="523">dataNasterii : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="208" y="541">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="222" y="541">numarTelefon : </text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="208" y="559">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="222" y="559">adresa : string</text>
+	<line stroke="black" stroke-opacity="1" x1="204" y1="569" x2="338" y2="569" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="517" y="520" width="3" height="65" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="379" y="582" width="141" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="375" y="516" width="142" height="66" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="446" y="526">Cunoscut</text>
+	<line stroke="black" stroke-opacity="1" x1="375" y1="536" x2="517" y2="536" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="379" y="546">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="393" y="546">nume : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="379" y="564">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="393" y="564">numarTelefon : string</text>
+	<line stroke="black" stroke-opacity="1" x1="375" y1="574" x2="517" y2="574" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="713" y="434" width="3" height="101" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="575" y="532" width="141" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="571" y="430" width="142" height="102" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="642" y="440">Coleg</text>
+	<line stroke="black" stroke-opacity="1" x1="571" y1="450" x2="713" y2="450" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="575" y="460">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="589" y="460">nume : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="575" y="478">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="589" y="478">numarTelefon : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="575" y="496">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="589" y="496">firma : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="575" y="514">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="589" y="514">adresa : string</text>
+	<line stroke="black" stroke-opacity="1" x1="571" y1="524" x2="713" y2="524" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="241" y="213" width="3" height="101" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="-21" y="311" width="265" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="-25" y="209" width="266" height="102" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="108" y="219">Agenda</text>
+	<line stroke="black" stroke-opacity="1" x1="-25" y1="229" x2="241" y2="229" />
+	<line stroke="black" stroke-opacity="1" x1="-25" y1="237" x2="241" y2="237" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="-21" y="247">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="-7" y="247">cautaContact(in nume : string) : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="-21" y="265">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="-7" y="265">prieteni() : Contact*</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="-21" y="283">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="-7" y="283">stergeContact(in nume : string) : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="-21" y="301">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="-7" y="301">adaugaContact(in contact : Contact) : bool</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="513" y="37" width="3" height="103" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="357" y="137" width="159" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="353" y="33" width="160" height="104" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="433" y="43">&lt;&lt;enum&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="433" y="63">contactType</text>
+	<line stroke="black" stroke-opacity="1" x1="353" y1="73" x2="513" y2="73" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="357" y="83">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="371" y="83">Prieten : contactType</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="357" y="101">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="371" y="101">Cunoscut : contactType</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="357" y="119">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="371" y="119">Coleg : contactType</text>
+	<line stroke="black" stroke-opacity="1" x1="353" y1="129" x2="513" y2="129" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="603" y1="429" x2="523" y2="323" />
+	<line stroke="#000000" stroke-opacity="1" x1="520" y1="319" x2="518" y2="327" />
+	<line stroke="#000000" stroke-opacity="1" x1="520" y1="319" x2="528" y2="320" />
+	<line stroke="#000000" stroke-opacity="1" x1="518" y1="327" x2="528" y2="320" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="384" y1="267" x2="378" y2="260" />
+	<line stroke="black" stroke-opacity="1" x1="384" y1="267" x2="377" y2="272" />
+	<line stroke="black" stroke-opacity="1" x1="245" y1="264" x2="384" y2="267" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="245,264 251,258 256,264 250,270" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="449" y1="141" x2="444" y2="148" />
+	<line stroke="black" stroke-opacity="1" x1="449" y1="141" x2="456" y2="145" />
+	<line stroke="black" stroke-opacity="1" x1="471" y1="222" x2="449" y2="141" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="452" y1="515" x2="476" y2="324" />
+	<line stroke="#000000" stroke-opacity="1" x1="477" y1="319" x2="470" y2="324" />
+	<line stroke="#000000" stroke-opacity="1" x1="477" y1="319" x2="482" y2="325" />
+	<line stroke="#000000" stroke-opacity="1" x1="470" y1="324" x2="482" y2="325" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="315" y1="474" x2="438" y2="323" />
+	<line stroke="#000000" stroke-opacity="1" x1="442" y1="319" x2="433" y2="319" />
+	<line stroke="#000000" stroke-opacity="1" x1="442" y1="319" x2="442" y2="327" />
+	<line stroke="#000000" stroke-opacity="1" x1="433" y1="319" x2="442" y2="327" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="461" y="157">contactType</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="255" y="280">1</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="281" y="273">&lt;&lt;vector&gt;&gt;</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="369" y="283">*</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="280" y="254">contacteAgenda</text>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+
+<head>
+<title>Class Agenda</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class Agenda</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_128647"></a>
+<p>Declaration :</p><ul>
+<li>C++ : class Agenda </li></ul><p>Artifact : <a href="index.html#ref8_128647"><b>Agenda</b></a></p>
+<div class="sub">
+<a name="ref0_128775"></a>
+<table><tr><td><div class="element">Relation <b>contacteAgenda (&lt;directional aggregation&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - contacteAgenda : <a href="class128135.html#ref4_128135"><b>Contact</b></a>, multiplicity : *</li><li>C++ : private: vector&lt;<a href="class128135.html#ref4_128135"><b>Contact</b></a> *&gt; contacteAgenda</li></ul><p>Stereotype: vector</p>
+<a name="ref2_128135"></a>
+<table><tr><td><div class="element">Operation <b>cautaContact</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + cautaContact(in nume : string) : bool</li><li>C++ : public: bool cautaContact(string nume)</li></ul><a name="ref2_128263"></a>
+<table><tr><td><div class="element">Operation <b>prieteni</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + prieteni() : Contact*</li><li>C++ : public: Contact* prieteni()</li></ul><a name="ref2_128391"></a>
+<table><tr><td><div class="element">Operation <b>stergeContact</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + stergeContact(in nume : string) : bool</li><li>C++ : public: bool stergeContact(string nume)</li></ul><a name="ref2_128519"></a>
+<table><tr><td><div class="element">Operation <b>adaugaContact</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + adaugaContact(in contact : <a href="class128135.html#ref4_128135"><b>Contact</b></a>) : bool</li><li>C++ : public: bool adaugaContact(const <a href="class128135.html#ref4_128135"><b>Contact</b></a> &amp; contact)</li></ul></div>
+<p>All public operations : <a href="class128647.html#ref2_128519"><b>adaugaContact</b></a> , <a href="class128647.html#ref2_128135"><b>cautaContact</b></a> , <a href="class128647.html#ref2_128263"><b>prieteni</b></a> , <a href="class128647.html#ref2_128391"><b>stergeContact</b></a> </p>
+</body>
+</html>
